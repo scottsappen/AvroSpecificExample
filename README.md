@@ -16,3 +16,7 @@ Once done, you will be able to see your generated source (.java) and target (.cl
 
 Tip on Specific Record: you could use it to read generic records as well.
 If you were to create a generic avro object from https://github.com/scottsappen/AvroGenericExample, you could read it with this Specific Record class.
+
+**Reading your Avro object using tools**
+- $ wget http://central.maven.org/maven2/org/apache/avro/avro-tools/1.8.2/avro-tools-1.8.2.jar
+- $ java -jar avro-tools-1.8.2.jar tojson --pretty climbinggym.avro
