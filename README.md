@@ -6,10 +6,13 @@ Example will create a specific record as an example using a rock climbing facili
 This is a Java/Maven project using JDK1.8.
 
 **Simple steps for a simple example:**
-- Write the schema in the code (not recommended, but easy to read)
-- Create an object using that schema
+- Maven build to turn an avro schema (.avsc file) into code (Avro Schema -> Maven build -> Generated Code)
+- Use that generated code to create an Avro object 
 - Write out a file using that schema (this will create a .avro file)
 - Read the .avro file
 
 To generate your code, use the Maven lifecycle (e.g. clean/package).
 Once done, you will be able to see your generated source (.java) and target (.class) for ClimbingGym.
+
+Tip on Specific Record: you could use it to read generic records as well.
+If you were to create a generic avro object from https://github.com/scottsappen/AvroGenericExample, you could read it with this Specific Record class.

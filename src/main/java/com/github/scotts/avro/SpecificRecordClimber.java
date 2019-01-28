@@ -15,8 +15,8 @@ public class SpecificRecordClimber {
     public static void main(String[] args) {
 
         /**
-         * - Write the schema in the code (not recommended, but easy to read)
-         * - Create an object using that schema
+         * - Maven build to turn an avro schema (.avsc file) into code (Avro Schema -> Maven build -> Generated Code)
+         * - Use that generated code to create an Avro object
          * - Write out a file using that schema (this will create a .avro file)
          * - Read the .avro file
          */
