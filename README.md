@@ -15,8 +15,10 @@ To generate your code, use the Maven lifecycle (e.g. clean/package).
 Once done, you will be able to see your generated source (.java) and target (.class) for ClimbingGym.
 
 **Reading your Avro object using tools**
-- $ wget http://central.maven.org/maven2/org/apache/avro/avro-tools/1.8.2/avro-tools-1.8.2.jar
-- $ java -jar avro-tools-1.8.2.jar tojson --pretty climbinggym.avro
+```commandline
+$ wget http://central.maven.org/maven2/org/apache/avro/avro-tools/1.8.2/avro-tools-1.8.2.jar
+$ java -jar avro-tools-1.8.2.jar tojson --pretty climbinggym.avro
+```
 
 **Other examples**
 <br/>
